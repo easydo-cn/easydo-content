@@ -15,15 +15,17 @@ model classes for easydo.cn
   item.name is 'item1'
   item.parent is contaienr 
 
-## 属性
+## 属性存取
+
+### 基础属性
 
   item.md['title'] = 'item 1'
 
-## 设置
+### 设置信息
 
   container.settings['show_comment'] = True
 
-## 扩展属性
+### 扩展属性
 
   container.mdset['zopen.test:test']['upper'] = True
 
